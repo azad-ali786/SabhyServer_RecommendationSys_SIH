@@ -13,7 +13,7 @@ capability through a set of visual reasoning tasks. In this paper we report
 incremental progress on ARC and lay the foundations for two approaches to
 abstraction and reasoning not based in brute-force search. We first apply an
 existing program synthesis system called DreamCoder to create symbolic
-abstractions out of tasks solved so far, and show how it enables solving of
+abstractions out of tasks solved so far, and show hoolw it enables solving of
 progressively more challenging ARC tasks. Second, we design a reasoning
 algorithm motivated by the way humans approach ARC. Our algorithm constructs a
 search graph and reasons over this graph structure to discover task solutions.
