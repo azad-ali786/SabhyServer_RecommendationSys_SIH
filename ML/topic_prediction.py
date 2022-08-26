@@ -28,7 +28,7 @@ encoded_dict = {'Ethics':0,'Machine Learning':1,'Deep Learning':2,
                 'Science':6,'Cryptography':7,'CS Fundamentals':8,
                 'Web Dev':9,'App Dev':10,'Technology':11,'Others':12}
 
-model = tf.keras.models.load_model('my_model.h5', custom_objects={'TFDistilBertModel': TFDistilBertModel})
+model = tf.keras.models.load_model('ML\my_model.h5', custom_objects={'TFDistilBertModel': TFDistilBertModel})
 
 def predict_topic(Description):
     x_val = tokenizer(
