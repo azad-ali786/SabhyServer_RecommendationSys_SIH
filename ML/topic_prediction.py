@@ -6,22 +6,8 @@ tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 bert = TFDistilBertModel.from_pretrained("distilbert-base-uncased")
 
 texts = """
-One of the challenges facing artificial intelligence research today is
-designing systems capable of utilizing systematic reasoning to generalize to
-new tasks. The Abstraction and Reasoning Corpus (ARC) measures such a
-capability through a set of visual reasoning tasks. In this paper we report
-incremental progress on ARC and lay the foundations for two approaches to
-abstraction and reasoning not based in brute-force search. We first apply an
-existing program synthesis system called DreamCoder to create symbolic
-abstractions out of tasks solved so far, and show hoolw it enables solving of
-progressively more challenging ARC tasks. Second, we design a reasoning
-algorithm motivated by the way humans approach ARC. Our algorithm constructs a
-search graph and reasons over this graph structure to discover task solutions.
-More specifically, we extend existing execution-guided program synthesis
-approaches with deductive reasoning based on function inverse semantics to
-enable a neural-guided bidirectional search algorithm. We demonstrate the
-effectiveness of the algorithm on three domains: ARC, 24-Game tasks, and a
-'double-and-add' arithmetic puzzle.
+Machine learning is transforming the world around us. To become successful, you\ufffdd better know what kinds of problems can be solved with machine learning, and how they can be solved. Don\ufffdt know where to start? The answer is one button away. During this course you will: - Identify practical problems which can be solved with machine learning - Build, tune and apply linear models with Spark MLLib - Understand methods of text processing - Fit decision trees and boost them with ensemble learning - Construct your own recommender system. As a practical assignment, you will - build and apply linear models for classification and regression tasks; - learn how to work with texts; - automatically construct decision trees and improve their performance with ensemble learning; - finally, you will build your own recommender system! With these skills, you will be able to tackle many practical machine learning tasks. We provide the tools, you choose the place of application to make this world of machines more intelligent. Special thanks to: - Prof. Mikhail Roytberg, APT dept., MIPT, who was the initial reviewer of the project, the supervisor and mentor of half of the BigData team. He was the one, who helped to get this show on the road. - Oleg Sukhoroslov (PhD, Senior Researcher at IITP RAS), who has been teaching MapReduce, Hadoop and friends since 2008. Now he is leading the infrastructure team. - Oleg Ivchenko (PhD student APT dept., MIPT), Pavel Akhtyamov (MSc. student at APT dept., MIPT) and Vladimir Kuznetsov (Assistant at P.G. Demidov Yaroslavl State University), superbrains who have developed and now maintain the infrastructure used for practical assignments in this course. - Asya Roitberg, Eugene Baulin, Marina Sudarikova. These people never sleep to babysit this course day and night, to make your learning experience productive, smooth and exciting.
+
 """
 encoded_dict = {'Ethics':0,'Machine Learning':1,'Deep Learning':2,
                 'Artificial Intelligence':3,'DSA':4,'Business':5,
